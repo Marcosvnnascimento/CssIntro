@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+* {
+    font-family: 'Open Sans';
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --color-red: #F03C42;
+    --color-blue: #222374;
+    --color-black: #000000;
+    --color-gray: #CCCCCC;
+    --color-white: #FFFFFF;
+}
+a, a:hover {
+    color: unset;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+header{
+    background-color: var(--color-red);
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+h1 {
+    color: var(--color-white);
+    font-size: 18px;
+}
+
+.header-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: var(--color-white);
+}
+
+.header-socials {
+    display: flex;
+    align-items: center;
+}
+.header-socials img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.container {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+#description {
+    height: 418px;
+    background-color: var(--color-blue);
+   
+}
+#description h2 {
+    font-size: 32px;
+    color: var(--color-white);
+    padding: 20px 0;
+}
+
+.card-description {
+    height: 127px;
+    background-color: var(--color-gray);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 20px 0;
+}
+.card-description p {
+    font-size: 14px;
+}
+
+#mods {
+    height: 880px;
+    background-color: var(--color-white);
+}
+#mods h2 {
+    color: var(--color-red);
+    font-size: 32px;
+    padding: 20px 0;
+}
+
+.mods-description {
+    height: 106px;
+    background-color: var(--color-blue);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 20px 0;
+}
+.mods-description h3 {
+    font-size: 20px;
+    color: var(--color-white);
+}
+.mods-description p {
+    font-size: 14px;
+    color:var(--color-white)
+}
+
+footer {
+    height: 262px;
+    background-color: var(--color-black);
+    color: var(--color-white);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ft {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.footer-content-box {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;  
+}
+
+.footer-content-box img {
+    margin-right: 10px;
+}
+
+.footer-pages {
+    margin-top: 20px;
+    font-size: 14px;
+}
